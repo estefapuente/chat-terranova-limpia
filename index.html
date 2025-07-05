@@ -1,15 +1,184 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chat con TerraNova</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Terranova Limpia</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      color: #222;
+    }
+
+    header {
+      background-color: #ccff00;
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .main-container {
+      width: 90%;
+      margin: auto;
+    }
+
+    .imagen-destacada {
+      width: 100%;
+      height: 90vh;
+      background: url('https://terranovalimpia.my.canva.site/_assets/media/0c478134c15b807c15c3d506c0d1d4d4.jpg') center/contain no-repeat;
+      margin-bottom: 2rem;
+    }
+
+    .seccion-amarilla {
+      background-color: #f6f600;
+      padding: 3rem 2rem;
+      text-align: center;
+      font-size: 1.4rem;
+      line-height: 1.6;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 960px;
+      margin: auto;
+    }
+
+    .residuos {
+      background-color: #E6F2E6;
+      border-left: 4px solid #007A33;
+      padding: 1rem;
+      margin: 2rem 0;
+    }
+
+    .imagen-poop {
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .imagen-poop img {
+      max-width: 500px;
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .img-duo {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .img-duo img {
+      max-width: 48%;
+      height: auto;
+      border: 2px solid #ccc;
+    }
+
+    .video-container {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    iframe {
+      max-width: 100%;
+    }
+
+    footer {
+      background-color: #007A33;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .chatbot {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999;
+    }
+  </style>
 </head>
 <body>
-  <h1 style="text-align: center;">¡Hola! 👋 Bienvenido a TerraNova Limpia</h1>
-  <p style="text-align: center;">Estamos aquí para ayudarte. Usa el chat abajo para conversar con nosotros.</p>
 
-  <!-- Código del widget de Tidio -->
-<script src="//code.tidio.co/htt0htjhgya8gqcf82ibgxhpeb95qdg1.js" async></script>
+  
+  <div class="main-container">
+
+    <header style="width: 90%; margin: auto; background-color: #ccff00; color: white; padding: 3rem 1rem; text-align: center;">
+      <h1 style="font-size: 3rem; font-weight: bold;">TERRANOVA LIMPIA</h1>
+    </header>
+
+    <div style="width: 90%; margin: 2rem auto; text-align: center;">
+  <img src="https://terranovalimpia.my.canva.site/_assets/media/0c478134c15b807c15c3d506c0d1d4d4.jpg" alt="Imagen principal" style="width: 100%; height: auto; border-radius: 8px;" />
+</div>
+
+
+
+    <div class="seccion-amarilla">
+      "Terranova Limpia" busca mejorar el manejo de residuos en la Ciudadela Terranova (Jamundí, Valle),
+      promoviendo la correcta separación y presentación de los residuos sólidos. A través de medios digitales
+      y trabajo colectivo con la comunidad, se busca crear conciencia, sentido de pertenencia, fortalecer la
+      cultura ciudadana, generar una percepción positiva y mejorar la calidad de vida de los habitantes.
+      Este proyecto impulsa espacios más limpios, seguros y saludables para todos.
+    </div>
+
+    <section class="residuos">
+      <h3>NO ME AVERGÜENCES, ¡RECOGE MI POPO!</h3>
+      <p>Están diseñadas para residuos tales como:</p>
+      <ul>
+        <li>Envolturas de dulces</li>
+        <li>Cajitas o botellas de refresco</li>
+        <li>Servilletas usadas</li>
+        <li>Paquetes de snack (papitas, etc.)</li>
+      </ul>
+    </section>
+
+    <div class="imagen-poop">
+      <img src="https://terranovalimpia.my.canva.site/_assets/media/b8798d0c89e0672c204709a25ada7513.jpg" alt="Campaña recoge mi popó" />
+    </div>
+
+    <section style="padding: 2rem; background: #fff;">
+      <h2 style="background: yellow; color: black; font-weight: bold; text-align: center; padding: 1rem;">
+        DISPOSICIÓN INADECUADA DE RESIDUOS EN LAS ÁREAS PÚBLICAS<br>(ESCOMBROS, COLCHONES, MUEBLES, RAMAS)
+      </h2>
+
+      <div class="img-duo">
+        <img src="IMG1.jpg" alt="Residuos en la calle" />
+        <img src="IMG2.jpg" alt="Escombros en caneca" />
+      </div>
+
+      <div class="video-container">
+        <iframe width="560" height="315" src="URL_DEL_VIDEO" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contáctanos</h2>
+      <p>📞 318 706 2745</p>
+      <p>💬 Escríbenos vía WhatsApp</p>
+    </section>
+  </div>
+
+  <footer>
+    © 2025 Terranova Limpia. Todos los derechos reservados.
+  </footer>
+
+  <div class="chatbot">
+    <script src="https://code.tidio.co/TU-CODIGO.js" async></script>
+  </div>
+
 </body>
 </html>
